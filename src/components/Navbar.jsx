@@ -22,7 +22,7 @@ const Navbar = () => {
 
 
           <button className="hidden md:block border-2 border-violet-500 rounded-2xl px-3 py-1 text-white">
-            <a href="https://github.com/dashboard">GitHub</a>
+            <a href="https://github.com/">GitHub</a>
           </button>
 
           {/* Mobile Menu Toggle */}
