@@ -8,7 +8,7 @@ const Hero = () => {
             <div className='max-w-full lg:w-[50%] flex justify-center items-center'>
                 <div className='flex flex-col'>
                     <h1 className='text-[40px] text-center -my-1 sm:text-[50px] lg:text-left'>Hi, I am</h1>
-                    <h1 className='text-[40px] text-center sm:text-[50px] lg:text-left'>Aarthi H</h1>
+                    <h1 className='text-[40px] text-center sm:text-[50px] lg:text-left'>Aarthi B</h1>
 
                     {/* Animated Typing Effect */}
                     <h2 className='text-[25px] my-2 sm:text-[32px] text-center lg:text-left'>
