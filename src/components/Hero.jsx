@@ -38,7 +38,7 @@ const Hero = () => {
              before:rounded-full before:bg-gradient-to-r before:opacity-0 
              before:transition-opacity before:duration-500 hover:before:opacity-80 
              hover:before:blur-[25px]"
-                        onClick={() => window.open('/Hireme.pdf', '_blank')}
+                        onClick={() => window.open('/HireMe.pdf', '_blank')}
                     >
                         Check Resume
                     </button>
