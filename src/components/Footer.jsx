@@ -37,7 +37,7 @@ const Footer = () => {
 
       {/* Footer Content */}
       <div className="flex flex-col items-center gap-6 my-7">
-        <h4 className="text-4xl  mb-2 font-extrabold">Aarthi H</h4>
+        <h4 className="text-4xl  mb-2 font-extrabold">Aarthi B</h4>
 
         <div className="flex space-x-4  mb-4 text-sm">
           <p className="hover:text-violet-700 text-md transition-all duration-200"><a href="#about">About</a></p>
