@@ -50,7 +50,7 @@ const Navbar = () => {
             <p onClick={()=>setToggle(false)} className="text-lg hover:text-violet-700 transition-all duration-200"><a href="#projects">Projects</a></p>
             <p onClick={()=>setToggle(false)} className="text-lg hover:text-violet-700 transition-all duration-200"><a href="#education">Education</a></p>
             <p onClick={()=>setToggle(false)} className="text-lg hover:text-violet-700 transition-all duration-200"><a href="#contact">Contact</a></p>
-          <button className="mt-4 bg-violet-800 px-4 py-2 rounded-xl w-fit"><a href="https://github.com/dashboard">GitHub</a></button>
+          <button className="mt-4 bg-violet-800 px-4 py-2 rounded-xl w-fit"><a href="https://github.com/">GitHub</a></button>
         </div>
       </div>
 
