@@ -16,8 +16,8 @@ const projects = [ {
     category: "website",
     tags: ["HTML","CSS","JAVASCRIPT","BOOTSTRAP"],
     description: "A fully responsive eCommerce website with seamless interacticity, and a modern UI/UX experience with high quality  products with offers",
-    code: "https://github.com/Hari-dev123/Ecomme",
-    demo: "https://ecomme-frontends.vercel.app"
+    code: "https://github.com/AARTHIBALAMURUGAN/Amazon.clone",
+    demo: "https://amazon-clone-uvhm.vercel.app/"
   },
   {
     id: 2,
@@ -27,8 +27,8 @@ const projects = [ {
     category: "web-app",
     tags: ["HTML","CSS","JAVASCRIPT","BOOTSTRAP"],
     description: "A Functional Crud apllication where user can create , read ,update ,delete operation on their Notes. Track all the Notes and can modify",
-    code  : "https://github.com/Hari-dev123/Movie-app",
-    demo : "https://movie-app-blush-one-16.vercel.app/"
+    code  : "https://github.com/AARTHIBALAMURUGAN/to-do-list",
+    demo : "https://aarthibalamurugan.github.io/to-do-list/to.html"
   },
   {
     id: 3,
@@ -38,8 +38,8 @@ const projects = [ {
     category: "web-app",
     tags: ["HTML","CSS","JAVASCRIPT","BOOTSTRAP"],
     description: "Its responsive interactive Signup and Login form where user can be authenticated and Authorized with Mysql database",
-    code : "https://github.com/Hari-dev123/WeatherApp-React",
-    demo : "https://weather-app-react-rust-nine.vercel.app/"
+    code : "https://github.com/AARTHIBALAMURUGAN/form",
+    demo : "https://aarthibalamurugan.github.io/form/meta.html"
   },
  
 ];
