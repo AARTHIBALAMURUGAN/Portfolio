@@ -24,10 +24,10 @@ const Visionary = () => {
             iconStyle={{ background: "#6200ea", color: "#fff" ,  }}
             
           >
-            <h4 className="font-semibold text-lg">Web Developer</h4>
+            <h4 className="font-semibold text-lg">Jr. Software Developer</h4>
             <h5 className="text-gray-400 text-sm">Passionated</h5>
             <p className="text-gray-300 text-sm mt-2">
-              As a Web Developer, I specialized in crafting responsive, user-friendly interfaces using Javascript and Bootstrap.
+               I completed a 6-month internship at Bluon Tech as a Junior Software Developer. During this time, I worked on backend development using Laravel, PHP, and MySQL, and supported frontend development using HTML, CSS, JavaScript, and Bootstrap. I also gained experience in working with APIs, MVC architecture, and database management, which helped me improve my full-stack development skills.
             </p>
           </VerticalTimelineElement>
 
@@ -42,7 +42,7 @@ const Visionary = () => {
             <h4 className="font-semibold text-lg">Reason to hire me</h4>
             <h5 className="text-gray-400 text-sm">what sets Me apart.</h5>
             <p className="text-gray-300 text-sm mt-2">
-                Aspiring Web Developer passionate about crafting exceptional user experiences.I bring fresh perspectives,boundaries ambition and unconventional thinking to every project.
+                Aspiring Software Developer passionate about crafting exceptional user experiences.I bring fresh perspectives,boundaries ambition and unconventional thinking to every project.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
@@ -52,3 +52,4 @@ const Visionary = () => {
 };
 
 export default Visionary;
+
