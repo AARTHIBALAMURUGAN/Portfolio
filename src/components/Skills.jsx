@@ -34,6 +34,18 @@ const Skills = () => {
               <FaBootstrap className='size-6'  /> <p className='text-sm sm:text-xl'>Bootstarp</p>
             </div>
             <div className='flex gap-2 items-center justify-center   text-gray-300 border-1 px-3 py-2 rounded-2xl outline-0'>
+              <RiJavaLine className='size-6'  /> <p className='text-lg sm:text-xl'>React JS</p>
+            </div>
+            <div className='flex gap-2 items-center justify-center   text-gray-300 border-1 px-3 py-2 rounded-2xl outline-0'>
+              <RiJavaLine className='size-6'  /> <p className='text-lg sm:text-xl'>Node JS</p>
+            </div>
+            <div className='flex gap-2 items-center justify-center   text-gray-300 border-1 px-3 py-2 rounded-2xl outline-0'>
+              <RiJavaLine className='size-6'  /> <p className='text-lg sm:text-xl'>Express JS</p>
+            </div>
+            <div className='flex gap-2 items-center justify-center   text-gray-300 border-1 px-3 py-2 rounded-2xl outline-0'>
+              <RiJavaLine className='size-6'  /> <p className='text-lg sm:text-xl'>Mongo DB</p>
+            </div>
+            <div className='flex gap-2 items-center justify-center   text-gray-300 border-1 px-3 py-2 rounded-2xl outline-0'>
               <RiJavaLine className='size-6'  /> <p className='text-lg sm:text-xl'>Java</p>
             </div>
             <div className='flex gap-2 items-center justify-center   text-gray-300 border-1 px-3 py-2 rounded-2xl outline-0'>
@@ -51,9 +63,7 @@ const Skills = () => {
             <div className='flex gap-2 items-center justify-center   text-gray-300 border-1 px-3 py-2 rounded-2xl outline-0'>
               <FaGithub  className='size-6' /> <p className='text-lg sm:text-xl'>GitHub</p>
             </div>
-            <div className='flex gap-2 items-center justify-center   text-gray-300 border-1 px-3 py-2 rounded-2xl outline-0'>
-              <SiEclipseide className='size-6'  /> <p className='text-lg sm:text-xl'>Eclipse</p>
-            </div>
+            
 
             <div className='flex gap-2 items-center justify-center   text-gray-300 border-1 px-3 py-2 rounded-2xl outline-0'>
               <VscVscode className='size-6'  /> <p className='text-lg sm:text-xl'>VScode</p>
@@ -75,3 +85,4 @@ const Skills = () => {
 }
 
 export default Skills
+
