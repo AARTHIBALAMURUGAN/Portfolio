@@ -43,7 +43,7 @@ const Hero = () => {
         hover:before:blur-[25px]"
     onClick={() => {
         const link = document.createElement("a");
-        link.href = "/HireMe.pdf"; // Ensure this file is in your public folder
+        link.href = "/Aarthi resume.pdf"; // Ensure this file is in your public folder
         link.download = "Aarthi_B_Resume.pdf"; // The name it will be saved as
         document.body.appendChild(link);
         link.click();
@@ -62,5 +62,6 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
 
