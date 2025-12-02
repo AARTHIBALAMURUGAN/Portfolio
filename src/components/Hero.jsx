@@ -26,8 +26,11 @@ const Hero = () => {
                     </h2>
 
                     <p className='py-3 pl-1 text-center text-lg sm:text-[20px] lg:text-left'>
-                        A skilled Web developer with a strong portfolio, passionate about staying updated on frontend tech.
-                        Collaborative and committed to quality, you thrive in dynamic teams. Eager to contribute creativity and bring innovative ideas to life.
+                       I am a Computer Science Engineering graduate with hands-on experience in full-stack web development.
+                        I have worked with technologies like React, Node.js, Express, MongoDB, Laravel, MySQL, HTML, CSS, and JavaScript. 
+                        During my internship at Bluon Tech and through my personal projects like CookLease and Expenzo,
+                        I gained real-world experience in building secure, user-friendly applications. I enjoy solving problems, 
+                        learning new technologies, and creating efficient digital solutions
                     </p>
                              <button
     className="relative my-4 mx-auto px-5 py-2 text-xl w-fit text-white lg:mx-0
@@ -59,3 +62,4 @@ const Hero = () => {
 }
 
 export default Hero;
+
