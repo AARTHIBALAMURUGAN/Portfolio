@@ -17,7 +17,7 @@ const projects = [ {
     tags: ["HTML","CSS","JAVASCRIPT","BOOTSTRAP"],
     description: "A fully responsive eCommerce website with seamless interacticity, and a modern UI/UX experience with high quality  products with offers",
     code: "https://github.com/AARTHIBALAMURUGAN/Amazon.clone",
-    demo: "https://amazon-clone-uvhm.vercel.app/"
+    demo: "https://amazon-clone-delta-orpin.vercel.app/"
   },
   {
     id: 2,
@@ -89,3 +89,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
