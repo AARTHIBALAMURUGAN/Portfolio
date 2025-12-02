@@ -14,7 +14,7 @@ const Hero = () => {
                     <h2 className='text-[25px] my-2 sm:text-[32px] text-center lg:text-left'>
                         I am a <span className='text-violet-500 sm:text-[32px]'>
                             <Typewriter
-                                words={["Frontend Developer" , "Web Developer"]}
+                                words={["Software Developer" , "Full Stack Developer"]}
                                 loop={true}
                                 cursor
                                 cursorStyle="_"
@@ -62,4 +62,5 @@ const Hero = () => {
 }
 
 export default Hero;
+
 
