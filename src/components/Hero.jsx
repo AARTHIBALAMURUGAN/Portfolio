@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
-import imgs from '../assets/Myself.jpg';
+import imgs from '../assets/aarthi .jpeg';
 
 const Hero = () => {
     return (
@@ -10,11 +10,11 @@ const Hero = () => {
                     <h1 className='text-[40px] text-center -my-1 sm:text-[50px] lg:text-left'>Hi, I am</h1>
                     <h1 className='text-[40px] text-center sm:text-[50px] lg:text-left'>Aarthi B</h1>
 
-                    {/* Animated Typing Effect */}
+                   
                     <h2 className='text-[25px] my-2 sm:text-[32px] text-center lg:text-left'>
                         I am a <span className='text-violet-500 sm:text-[32px]'>
                             <Typewriter
-                                words={["MERN Stack Developer" , "Full Stack Developer"]}
+                                words={["Software Developer" , "Full Stack Developer"]}
                                 loop={true}
                                 cursor
                                 cursorStyle="_"
@@ -27,8 +27,8 @@ const Hero = () => {
 
                     <p className='py-3 pl-1 text-center text-lg sm:text-[20px] lg:text-left'>
                        I am a Computer Science Engineering graduate with hands-on experience in full-stack web development.
-                        I have worked with technologies like React, Node.js, Express, MongoDB, Laravel, MySQL, HTML, CSS, and JavaScript. 
-                        During my internship at Bluon Tech and through my personal projects like CookLease and Expenzo,
+                        I have worked with technologies like React, Node.js, Express, MongoDB, Java,Springboot, MySQL, HTML, CSS, and JavaScript. 
+                        During my internship at Bluon Tech and through my personal projects like CookLease and Expense Spliter,Ai resume Analyser
                         I gained real-world experience in building secure, user-friendly applications. I enjoy solving problems, 
                         learning new technologies, and creating efficient digital solutions
                     </p>
@@ -43,7 +43,7 @@ const Hero = () => {
         hover:before:blur-[25px]"
     onClick={() => {
         const link = document.createElement("a");
-        link.href = "/Aarthi full stack web.pdf"; // Ensure this file is in your public folder
+        link.href = "/Aarthi_B_FullStack_Developer.pdf"; 
         link.download = "Aarthi_B_Resume.pdf"; // The name it will be saved as
         document.body.appendChild(link);
         link.click();

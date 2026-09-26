@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import Cart from "./Cart";
 import ProjectModal from "./ProjectModal";
 import COOK from '../assets/COOKLEASE.png'
-import ecom from '../assets/Amazon.png'
-
 import shopping from '../assets/SHOPPING LIST.png'
 
 import recipe from '../assets/recipe.png'
@@ -11,6 +9,7 @@ import expense from '../assets/expense.png'
 
 
 const projects = [ 
+ 
    {
     id: 1,
     title: "CookLease",
@@ -22,30 +21,21 @@ const projects = [
     code: "https://github.com/AARTHIBALAMURUGAN/CookLease",
     demo: "https://cook-lease-xaxt.vercel.app"
   },
-  {
-    id: 2,
-    title: "Amazon-clone",
-    year : 2022,
-    img: ecom,
-    category: "website",
-    tags: ["HTML","CSS","JAVASCRIPT","BOOTSTRAP"],
-    description: "A fully responsive eCommerce website with seamless interacticity, and a modern UI/UX experience with high quality  products with offers",
-    code: "https://github.com/AARTHIBALAMURUGAN/Amazon.clone",
-    demo: "https://amazon-clone-delta-orpin.vercel.app/"
-  },
+
+ 
    {
-    id: 3,
-    title: "Expenzo",
+    id: 2,
+    title: "Expense Splitter",
     year : 2025,
     img: expense,
     category: "web-app",
     tags: ["REACT JS","NODE JS","EXPRESS JS","MONGODB","JWT"],
-    description: "Backend-driven expense tracker for managing income and expenses efficiently.Built secure APIs with JWT authentication and real-time financial insights.",
-    code: "https://github.com/AARTHIBALAMURUGAN/Expenzo",
-    demo: "https://expenzo-kcxy.vercel.app/dashboard"
+    description: "Developed a full-stack Expense Splitter using Next.js, Node.js, Express.js, and MongoDB with JWT authentication.Implemented expense tracking and a who-owes-whom settlement engine with CRUD, search, filtering, and sorting.",
+    code: "https://github.com/AARTHIBALAMURUGAN/ExpenseSplitter",
+    demo: "https://expense-splitter-s6n8.vercel.app/login"
   },
   {
-    id: 4,
+    id: 3,
     title: "Shopping-List",
     year : 2024,
     img: shopping,
@@ -56,7 +46,7 @@ const projects = [
     demo : "https://statuesque-profiterole-d81cbd.netlify.app"
   },
   {
-    id: 5,
+    id: 4,
     title: "RECIPE APP",
     year : 2026,
     img: recipe,
@@ -98,7 +88,7 @@ const Projects = () => {
         ))}
       </div>
 
-      {/* Centering Cards */}
+     
       <div className="flex  flex-wrap justify-center gap-4 sm:gap-y-10 sm:gap-x-6 ">
         {filterProjects.map(project => (
           <div key={project.id} onClick={() => setSelectedProject(project)} >
@@ -107,7 +97,7 @@ const Projects = () => {
         ))}
       </div>
 
-      {/* Project Modal */}
+    
       {selectedProject && <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />}
     </div>
   );
