@@ -55,7 +55,14 @@ const Hero = () => {
                 </div>
             </div>
             <div className='w-full lg:w-[50%] flex justify-center items-center'>
-                <img src={imgs} id='logo' className='w-[300px] h-[300px] sm:w-[350px] sm:h-[350px] rounded-[100%] border-2 border-violet-600' alt="" />
+                <img
+    src={imgs}
+    id="logo"
+    className="w-[300px] h-[300px] sm:w-[350px] sm:h-[350px] 
+               rounded-full border-2 border-violet-600 
+               object-cover object-top"
+    alt="Aarthi B"
+/>
             </div>
         </div>
     );
